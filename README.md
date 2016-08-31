@@ -1,4 +1,4 @@
-# i will write one new tweet-length lullaby a day.
+# i will write one new single line lullaby each day.
 
 # these run in SuperCollider (http://supercollider.github.io/).
 
