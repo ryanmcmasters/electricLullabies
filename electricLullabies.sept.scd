@@ -42,12 +42,12 @@ j.free
 k={Splay.ar(RLPF.ar(LFTri.ar([44,189,2763],mul:Dust2.ar(50)),[350,450,400,300],0.01))}.play
 k.free
 
-//12-Sept-2016:
-l={}.play
+//12-Sept-2016: microcontrol
+l={Blip.ar(TIRand.ar(5,11,Impulse.ar(3))*5,TIRand.ar(3,10,Dust2.ar(5)))!2}.play
 l.free
 
-//13-Sept-2016:
-m={}.play
+//13-Sept-2016: go bump
+m={Gendy1.ar(minfreq:30,maxfreq:50,initCPs:3,mul:Saw.kr([5,1,3], SinOsc.ar(20)))!2}.play
 m.free
 
 //14-Sept-2016:
