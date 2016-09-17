@@ -50,20 +50,20 @@ l.free
 m={Gendy1.ar(minfreq:30,maxfreq:50,initCPs:3,mul:Saw.kr([5,1,3], SinOsc.ar(20)))!2}.play
 m.free
 
-//14-Sept-2016:
-n={}.play
+//14-Sept-2016: a broken spring reverb
+n={RLPF.ar(FreeVerb2.ar(Dust2.ar([2,1]), Dust2.ar([1,2]),1,1,0.8),[1500,1000],0.05,SinOsc.ar(TIRand.ar(1,5,Impulse.ar(3))*500))}.play
 n.free
 
 //15-Sept-2016:
-o={}.play
+o={Splay.ar([SinOsc.ar(500,mul:0.5),SinOsc.ar(TIRand.ar(1,7,Impulse.ar(5))*50),SinOsc.ar(300,mul:0.5)])}.play
 o.free
 
-//16-Sept-2016:
-p={}.play
+//16-Sept-2016: they hate that.
+p={Splay.ar(RHPF.ar(Blip.ar(10*SinOsc.kr([9,2,1,3,4]),5),[2200,1700,1500,1800,2100],0.01))}.play
 p.free
 
 //17-Sept-2016:
-q={}.play
+q={GbmanN.ar([2,2.8],mul:LFTri.ar([250,300],mul:0.2))!2}.play
 q.free
 
 //18-Sept-2016:
