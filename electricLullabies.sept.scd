@@ -67,5 +67,5 @@ q={GbmanN.ar([2,2.8],mul:LFTri.ar([250,300],mul:0.2))!2}.play
 q.free
 
 //18-Sept-2016: i got some nice shoes for $40
-r={Splay.ar([BrownNoise.ar(TExpRand.ar(0.05, 0.5, Impulse.ar(5))), WhiteNoise.ar(TExpRand.ar(0.005, 0.3, Impulse.ar(5))),WhiteNoise.ar(TExpRand.ar(0.005, 0.3, Impulse.ar(5))),BrownNoise.ar(TExpRand.ar(0.05, 0.5, Impulse.ar(5)))])}.play
+r={t=4;Splay.ar([BrownNoise.ar(TExpRand.ar(0.05, 0.5, Impulse.ar(t))), WhiteNoise.ar(TExpRand.ar(0.005, 0.3, Impulse.ar(t))),WhiteNoise.ar(TExpRand.ar(0.005, 0.3, Impulse.ar(t))),BrownNoise.ar(TExpRand.ar(0.05, 0.5, Impulse.ar(t)))])}.play
 r.free
