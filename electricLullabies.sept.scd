@@ -62,58 +62,10 @@ o.free
 p={Splay.ar(RHPF.ar(Blip.ar(10*SinOsc.kr([9,2,1,3,4]),5),[2200,1700,1500,1800,2100],0.01))}.play
 p.free
 
-//17-Sept-2016:
+//17-Sept-2016: sky(pe)
 q={GbmanN.ar([2,2.8],mul:LFTri.ar([250,300],mul:0.2))!2}.play
 q.free
 
-//18-Sept-2016:
-r={}.play
+//18-Sept-2016: i got some nice shoes for $40
+r={Splay.ar([BrownNoise.ar(TExpRand.ar(0.05, 0.5, Impulse.ar(5))), WhiteNoise.ar(TExpRand.ar(0.005, 0.3, Impulse.ar(5))),WhiteNoise.ar(TExpRand.ar(0.005, 0.3, Impulse.ar(5))),BrownNoise.ar(TExpRand.ar(0.05, 0.5, Impulse.ar(5)))])}.play
 r.free
-
-//19-Sept-2016:
-s={}.play
-s.free
-
-//20-Sept-2016:
-t={}.play
-t.free
-
-//21-Sept-2016:
-u={}.play
-u.free
-
-//22-Sept-2016:
-v={}.play
-v.free
-
-//23-Sept-2016:
-{}.play
-.free
-
-//24-Sept-2016:
-{}.play
-.free
-
-//25-Sept-2016:
-{}.play
-.free
-
-//26-Sept-2016:
-{}.play
-.free
-
-//27-Sept-2016:
-{}.play
-.free
-
-//28-Sept-2016:
-{}.play
-.free
-
-//29-Sept-2016:
-{}.play
-.free
-
-//30-Sept-2016:
-{}.play
-.free
