@@ -69,3 +69,11 @@ q.free
 //18-Sept-2016: i got some nice shoes for $40
 r={t=4;Splay.ar([BrownNoise.ar(TExpRand.ar(0.05, 0.5, Impulse.ar(t))), WhiteNoise.ar(TExpRand.ar(0.005, 0.3, Impulse.ar(t))),WhiteNoise.ar(TExpRand.ar(0.005, 0.3, Impulse.ar(t))),BrownNoise.ar(TExpRand.ar(0.05, 0.5, Impulse.ar(t)))])}.play
 r.free
+
+//19-Sept-2016: why no blue noise?
+s={Splay.ar(BrownNoise.ar(SinOsc.ar([116,80,18,87,116].midicps,mul:Saw.ar([2,1,0.5,1,4]/TIRand.ar(1,2,Impulse.ar(15))))))}.play
+s.free
+
+//20-Sept-2016: sat but a sea apart.
+t={Splay.ar(RLPF.ar(PinkNoise.ar(LFTri.kr([111,71,23,35,52,158])),500,0.8))}.play
+t.free
