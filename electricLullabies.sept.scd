@@ -77,3 +77,11 @@ s.free
 //20-Sept-2016: sat but a sea apart.
 t={Splay.ar(RLPF.ar(PinkNoise.ar(LFTri.kr([111,71,23,35,52,158])),500,0.8))}.play
 t.free
+
+//21-Sept-2016: hi-hats
+u={Splay.ar(WhiteNoise.ar(Saw.ar([1,1.1,1.5,0.7])))}.play
+u.free
+
+//22-Sept-2016: 2:1.6
+v={Splay.ar(LFTri.ar(TIRand.ar(1,TIRand.ar(2,10,Dust.ar(5)),Impulse.ar([8,4,2,8,4,8,4,8,2,4,8]))*50,mul:0.4,add:Blip.ar([2,1.6,4],500)))}.play
+v.free
