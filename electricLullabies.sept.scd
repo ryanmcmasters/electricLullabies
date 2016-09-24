@@ -89,3 +89,7 @@ v.free
 //23-Sept-2016: vacuum/cave.
 w={GVerb.ar(HenonC.ar(TIRand.ar(1,5,Dust.ar(0.5))*300,mul:SinOsc.ar(300)*0.3),500,5,0.25,drylevel:0.5,taillevel:0.9,maxroomsize:1000)}.play
 w.free
+
+//24-Sept-2016: N.
+x={FBSineN.ar([5,2.5],0.5,0.1,mul:Blip.ar([50,75,90],5)*0.5)!2}.play
+x.free
