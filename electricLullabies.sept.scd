@@ -85,3 +85,7 @@ u.free
 //22-Sept-2016: 2:1.6
 v={Splay.ar(LFTri.ar(TIRand.ar(1,TIRand.ar(2,10,Dust.ar(5)),Impulse.ar([8,4,2,8,4,8,4,8,2,4,8]))*50,mul:0.4,add:Blip.ar([2,1.6,4],500)))}.play
 v.free
+
+//23-Sept-2016: vacuum/cave.
+w={GVerb.ar(HenonC.ar(TIRand.ar(1,5,Dust.ar(0.5))*300,mul:SinOsc.ar(300)*0.3),500,5,0.25,drylevel:0.5,taillevel:0.9,maxroomsize:1000)}.play
+w.free
